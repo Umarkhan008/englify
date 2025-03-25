@@ -3,13 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <title>QR</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style>
+        *{
+            font-family: cursive;
+        }
+    </style>
 </head>
-<body>
-    <h1>Hello web 10</h1>
-    <h1>Qaleslar yaxmisizlar</h1>
-    <img src="https://i5.walmartimages.com/seo/Samsung-Galaxy-S24-Ultra-5G-SM-S928B-DS-1TB-12GB-RAM-DUAL-NANO-SIM-Global-Model-Factory-Unlocked-GSM-Titanium-Violet_27c8a138-e673-4372-831a-744cb9511b5f.26c52035bd3a5280da10538de73f88ae.jpeg" alt="">
-    <h1>suna telefon oldim</h1>
+<body class="bg-blue-200 flex h-screen items-center justify-center">
+    <div class="w-[400px] h-[70vh] bg-white flex flex-col p-[20px] rounded-lg">
+        <div class="w-full h-[50%] bg-blue-600 items-center justify-center flex rounded-lg">
+            <img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https://www.youtube.com/@aizen_sosuke_1" alt="">
+        </div>
+        <br><h1 class="text-center text-[27.439px]"><b>Check My YouTube channel</b></h1><br>
+        <p class="text-center text-[20px]">scan this QR-CODE to check my channel</p>
 </body>
 </html>
